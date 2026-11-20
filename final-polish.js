@@ -1,0 +1,1 @@
+(()=>{const card=document.querySelector('#essential-examples');const essential=document.querySelector('[data-tier="essential"]');if(!card||!essential)return;const reflect=()=>{card.hidden=essential.getAttribute('aria-pressed')!=='true'};new MutationObserver(reflect).observe(essential,{attributes:true,attributeFilter:['aria-pressed']});reflect();})();
