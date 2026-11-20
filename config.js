@@ -1,0 +1,1 @@
+window.OFFER_CONFIG={mode:'showcase',client:'가상 숙박 경험',type:'concept-only',operation:null,extraNotice:null,pricing:{},formatSummary(g,t,tierKey,goalLabel){return `WEPLACE OFFER ROOM | INTERACTIVE CONCEPT\n선택 고객군: ${g.label}\n검토 목적: ${goalLabel || "아직 선택하지 않음"}\n선택 UX: ${t.label}\n시각 콘셉트이며 실제 계약·제작·성과를 뜻하지 않습니다.\n공개 적용 전 권리·사실·성과의 공개 승인을 확인해야 합니다.`;}};
